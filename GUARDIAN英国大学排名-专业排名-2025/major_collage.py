@@ -13,7 +13,8 @@ def main():
     url = "https://interactive.guim.co.uk/atoms/labs/2024/09/university-guide/overview/v/1755081891846/assets/data/overview.json"
 
     # 数据库连接配置
-    #这里进行你的数据库配置比如conn = .......
+    #这里进行你的数据库配置比如
+    conn = ()
 
     try:
         cursor = conn.cursor()
@@ -131,3 +132,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
