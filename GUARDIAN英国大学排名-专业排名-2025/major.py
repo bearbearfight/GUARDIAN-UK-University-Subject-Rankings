@@ -10,7 +10,8 @@ headers = {
 url = "https://interactive.guim.co.uk/atoms/labs/2024/09/university-guide/overview/v/1755081891846/assets/data/overview.json"
 
 # 数据库连接配置
-#此处进行你自己的数据库配置比如：conn = .......
+#此处进行你自己的数据库配置比如：
+conn = ()
 
 
 def main():
@@ -76,6 +77,7 @@ if __name__ == "__main__":
     main()
     end_time = time.time()
     print(f"\n程序运行时间: {end_time - start_time:.2f} 秒")
+
 
 
 
